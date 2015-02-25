@@ -17,7 +17,7 @@ public class CartersDolphin extends Turtle
     Color infoColor = new Color(10, 10, 10);
     this.setInfoColor(infoColor);
     //Color infoColor = new Color(10, 10, 10);
-    this.setWidth(50);
+    this.setWidth(10);
     this.setHeight(25);
     
   }
