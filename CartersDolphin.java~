@@ -1,6 +1,4 @@
-import java.awt.Color;
-
-public class CartersDolphin extends Turtle
+public class CartersDolphin extends Dolphin
 { 
   /**
    * Constructor that takes a model display and adds
@@ -10,15 +8,15 @@ public class CartersDolphin extends Turtle
   public CartersDolphin(World wref)
   {
     super(wref);
-    Color shellColor = new Color(100, 149, 237); 
+    Color shellColor = new Color(200, 50, 10); 
     this.setShellColor(shellColor);
-    Color bodyColor = new Color(100, 149, 237);
+    Color bodyColor = new Color(250, 30, 10);
     this.setBodyColor(bodyColor);
     Color infoColor = new Color(10, 10, 10);
     this.setInfoColor(infoColor);
-    //Color infoColor = new Color(10, 10, 10);
-    this.setWidth(50);
-    this.setHeight(25);
+    Color infoColor = new Color(10, 10, 10);
+    this.setWidth(10);
+    this.setHeight(25):
     
   }
   
