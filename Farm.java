@@ -4,5 +4,6 @@ public class Farm
     {
        World wref = new World();
        CartersDolphin ex1 = new CartersDolphin(wref);
+       Squirrel russell=new Squirrel(wref);
     }
 }
