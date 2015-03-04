@@ -19,6 +19,30 @@ public class CartersDolphin extends Turtle
     //Color infoColor = new Color(10, 10, 10);
     this.setWidth(10);
     this.setHeight(25);
+    this.forward(200);
+    this.turnRight();
+    this.forward(20);
+    this.turnRight();
+    this.forward(90);
+    this.turnLeft();
+    this.forward(70);
+    this.turnLeft();
+    this.forward(90);
+    this.turnRight();
+    this.forward(20);
+    this.turnRight();
+    this.forward(200);
+    this.turnRight();
+    this.forward(20);
+    this.turnRight();
+    this.forward(90);
+    this.turnLeft();
+    this.forward(70);
+    this.turnLeft();
+    this.forward(90);
+    this.turnRight();
+    this.forward(20);
+    this.turnRight();
     
   }
   
