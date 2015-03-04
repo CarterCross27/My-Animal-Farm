@@ -4,6 +4,9 @@ public class Farm
     {
        World wref = new World();
        CartersDolphin ex1 = new CartersDolphin(wref);
-       ConnorsDog ex2 = new ConnorsDog(wref);
+       Dog doug = new Dog(wref);
+       doug.getDistance(100,100);
+       doug.turnToFace(ex1);
+       
     }
 }
