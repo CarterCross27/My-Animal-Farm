@@ -1,3 +1,5 @@
+import java.awt.Color;
+
 public class Squirrel  extends Turtle
 { 
   /**
@@ -8,7 +10,9 @@ public class Squirrel  extends Turtle
   public Squirrel(World wref)
   {
     super(wref);
-    Color shellColor = new Color(70,13,168)
+    Color sc = new Color(70,13,168);
+    this.setShellColor(sc);
+    
   }
   
   /**
@@ -18,7 +22,7 @@ public class Squirrel  extends Turtle
    * @param y the y pos
    * @param display the model display
    */
-  public ExampleTurtle(int x, int y, World wref)
+  public Squirrel(int x, int y, World wref)
   {
     super(x, y, wref);
   }
