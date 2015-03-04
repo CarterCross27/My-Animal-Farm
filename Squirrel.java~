@@ -8,7 +8,6 @@ public class Squirrel  extends Turtle
   public Squirrel(World wref)
   {
     super(wref);
-    Color shellColor = new Color(70,13,168)
   }
   
   /**
