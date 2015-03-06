@@ -8,8 +8,6 @@ public class Dog extends Turtle
   public Dog(World wref)
   {
     super(wref);
-    Color sc = new Color(0, 255, 255);
-    this.setShellColor(sc);
   }
   
   /**

@@ -8,6 +8,33 @@ public class Dog extends Turtle
   public Dog(World wref)
   {
     super(wref);
+    this.setWidth(10);
+    this.setHeight(25);
+    this.forward(-200);
+    this.turnRight();
+    this.forward(-20);
+    this.turnRight();
+    this.forward(-90);
+    this.turnLeft();
+    this.forward(-70);
+    this.turnLeft();
+    this.forward(-90);
+    this.turnRight();
+    this.forward(-20);
+    this.turnRight();
+    this.forward(-200);
+    this.turnRight();
+    this.forward(-20);
+    this.turnRight();
+    this.forward(-90);
+    this.turnLeft();
+    this.forward(-70);
+    this.turnLeft();
+    this.forward(-90);
+    this.turnRight();
+    this.forward(-20);
+    this.turnRight();
+    
   }
   
   /**
