@@ -26,4 +26,12 @@ public class Squirrel  extends Turtle
   {
     super(x, y, wref);
   }
-}
+  {
+    this.setWidth(25);
+    this.setHeight(10);
+    this.forward(150);
+    this.turnRight(25);
+    this.forward(10);
+    this.turnRight();
+    this.forward(100);
+  
